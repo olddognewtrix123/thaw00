@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 21: expected statement.
+    audio.play("audio/01_Ghosts_I_320kb.mp3", loop=True)
+                                                        ^
+
+Ren'Py Version: Ren'Py 8.1.1.23060707
+Wed Jul 12 15:24:58 2023

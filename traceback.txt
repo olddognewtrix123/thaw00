@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 21, in script
+    $ audio.play("audio/01_Ghosts_I_320kb.mp3", loop=True)
+  File "game/script.rpy", line 21, in <module>
+    $ audio.play("audio/01_Ghosts_I_320kb.mp3", loop=True)
+AttributeError: 'StoreModule' object has no attribute 'play'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 21, in script
+    $ audio.play("audio/01_Ghosts_I_320kb.mp3", loop=True)
+  File "C:\renpy-8\renpy-8.1.1-sdk\renpy\ast.py", line 1138, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\renpy-8\renpy-8.1.1-sdk\renpy\python.py", line 1122, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 21, in <module>
+    $ audio.play("audio/01_Ghosts_I_320kb.mp3", loop=True)
+AttributeError: 'StoreModule' object has no attribute 'play'
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.1.1.23060707
+Thaw 1.0
+Wed Jul 12 15:25:51 2023
